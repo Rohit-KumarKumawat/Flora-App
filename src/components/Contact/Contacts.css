@@ -1,0 +1,28 @@
+.contact-section {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+.contact-description,
+.contact-form {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-description h2,
+.contact-form h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-description p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+@media (max-width: 750px) {
+  .contact-section {
+    flex-wrap: wrap;
+  }
+}

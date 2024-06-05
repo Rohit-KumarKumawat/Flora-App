@@ -1,0 +1,21 @@
+.category-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  background: #c39ea0; /* Add a semi-transparent background */
+  width: 100%;
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.category-title {
+  font-size: 3rem; /* Increase the font size */
+  font-weight: bold;
+  width: 100%; /* Ensure the title takes the full width */
+  text-align: center;
+  background: rgb(195, 158, 160, 0.5); /* Add a semi-transparent background */
+  padding: 10px; /* Add some padding */
+  margin: 0; /* Reset margin */
+}
